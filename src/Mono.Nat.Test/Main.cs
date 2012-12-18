@@ -74,7 +74,7 @@ namespace Mono.Nat.Test
                 device.CreatePortMap(new Mapping(Protocol.Tcp, 1500, 1500));
 			    Console.WriteLine ("---");
 			
-				return;
+				//return;
 			
                 Mapping mapping = new Mapping(Protocol.Tcp, 6001, 6001);
                 device.CreatePortMap(mapping);

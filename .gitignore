@@ -13,10 +13,24 @@ Makefile.in
 *.userprefs
 *.pidb
 
-src/Mono.Nat/bin
-src/Mono.Nat/obj
-src/Mono.Nat.Test/bin
-src/Mono.Nat.Test/obj
+# Ignore VS files
+Thumbs.db
+*.user
+*.opensdf
+*.sdf
+*.suo
+*.ncb
+*.sln.docstates
+*.bak
+*.cache
+*.vsp
+*.vsmdi
+/ipch
+[Tt]est[Rr]esult*
+[Bb]in*/
+[Oo]bj/
+[Dd]ebug*/
+[Rr]elease*/
 
 # Ignore the pc file
 src/Mono.Nat/mono.nat.pc
